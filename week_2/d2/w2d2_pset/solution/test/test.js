@@ -4,7 +4,7 @@ var tryRequire = require('../utils/try_require.js');
 var assert = require('assert');
 
 var catBuilder = tryRequire('../problems/1_cat_builder.js');
-var getFullname = tryRequire('../problems/3_get_fullname.js');
+var getFullName = tryRequire('../problems/3_get_fullname.js');
 var valuePair = tryRequire('../problems/4_value_pair.js');
 var doesKeyExist = tryRequire('../problems/5_does_key_exist.js');
 var adults = tryRequire('../problems/6_adults.js');
@@ -48,8 +48,8 @@ describe('getFullName()', function () {
     var p1 = {firstName: 'John', lastName: 'Doe'};
     var p2 = {firstName: 'Charlie', lastName: 'Brown', age: 9};
 
-    assert.equal(getFullname(p1), 'John Doe');
-    assert.equal(getFullname(p2), 'Charlie Brown');
+    assert.equal(getFullName(p1), 'John Doe');
+    assert.equal(getFullName(p2), 'Charlie Brown');
   });
 });
 
