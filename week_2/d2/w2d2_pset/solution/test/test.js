@@ -4,7 +4,7 @@ var tryRequire = require('../utils/try_require.js');
 var assert = require('assert');
 
 var catBuilder = tryRequire('../problems/1_cat_builder.js');
-var getFullName = tryRequire('../problems/3_get_fullname.js');
+var getFullName = tryRequire('../problems/3_get_full_name.js');
 var valuePair = tryRequire('../problems/4_value_pair.js');
 var doesKeyExist = tryRequire('../problems/5_does_key_exist.js');
 var adults = tryRequire('../problems/6_adults.js');
