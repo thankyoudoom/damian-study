@@ -96,6 +96,7 @@ describe('countAdjacentSums()', function () {
     assert.equal(countAdjacentSums([1, 5, 1], 6), 2);
     assert.equal(countAdjacentSums([7, 2, 4, 6], 7), 0);
     assert.equal(countAdjacentSums([6, 7, 11, 2, 5, 10, 3], 13), 3);
+    assert.equal(countAdjacentSums([2,1,1,1,3], 5), 0);
   });
 });
 
