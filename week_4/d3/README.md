@@ -17,7 +17,7 @@
   + [Hello example](https://vimeo.com/240224928/b33a95b198)
   + [Countdown example](https://vimeo.com/240224679/e3d4e31922)
   + [Factorial example](https://vimeo.com/240224769/301acb8d3d)
-  + [Power example](https://vimeo.com/213908270/8dad4c3c68)
+  + [Power example](https://vimeo.com/240933582/6fa61ec7eb)
   + [Fib example](https://vimeo.com/240933506/7967e29a2c)
 + Problem Walkthroughs
   + [greatestCommonFactor](https://vimeo.com/220369646/96f4276e90)
