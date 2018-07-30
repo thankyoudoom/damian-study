@@ -10,8 +10,6 @@
 + [Running Javascript][running-javascript]
 
 
-+ Work through Chapter 1 of [codecademy]'s JavaScript course to get your feet wet before our first day. Feel free to work further than that as well!
-
 [agreement-summary]: /other/agreement_summary.md
 [what-to-expect]: ./what_to_expect.md
 [how-to-succeed]: ./how_to_succeed.md
@@ -21,5 +19,3 @@
 [installations]: ./installations.md
 [cli]: ./cli.md
 
-
-[codecademy]: https://www.codecademy.com/
