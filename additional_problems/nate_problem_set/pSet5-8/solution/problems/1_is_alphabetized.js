@@ -6,7 +6,7 @@
 //
 // isAlphabetized('abc'); // ==> true
 // isAlphabetized('acb'); // => false
-// isAlphabetized('accb'); // => true
+// isAlphabetized('abbc'); // => true
 // **********************************************************************
 //  
 
