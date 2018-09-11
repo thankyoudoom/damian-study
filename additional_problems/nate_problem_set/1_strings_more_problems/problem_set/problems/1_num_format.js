@@ -14,22 +14,7 @@
 // **********************************************************************
 
 function numFormat(value) {
-  value = String(value);
-  var res = [];
-  var count = 0;
 
-  for (var i = value.length - 1; i >= 0; i -= 1) {
-    var cur = value[i];
-    count += 1;
-
-    res.unshift(cur);
-
-    if (count % 3 === 0 && i !== 0) {
-      res.unshift(',');
-    }
-  }
-
-  return res.join('');
 }
 
 
