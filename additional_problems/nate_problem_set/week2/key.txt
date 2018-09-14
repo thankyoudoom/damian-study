@@ -1,0 +1,103 @@
+********************************
+*****   Problems Week 2    *****
+********************************
+
+
+basic      (24 problems)
+actual     (43 problems)
+advanced   (12 problems)
+
+**********************************************************************
+basic
+
+  getValue
+  getFriends
+  printKeys
+  printValues
+  printKeyValues
+  getKeysArray
+  getValues
+  hasTargetValue
+  countVowelsObj
+  getValueAtIndexes
+  printNums
+  printNumsDistinctive
+  print2dValues
+  getCoordinates
+  getMaxValue
+  print2dReverse
+  countVowels
+  getMaxMin
+  uppercaseWords
+  hasTargetWord
+  hasTargetWordPunc
+  hasAllTargetWords
+  removeVowels
+  removeLastVowel
+
+    
+**********************************************************************
+actual
+
+  average                   
+  tripler                  
+  oddRange                
+  evenRange              
+  reverseString         
+  intersect            
+  fuzzBizz            
+  arrayRange         
+  reverseOddRange   
+  isSquare         
+  mysticNumbers  
+  firstOrLast     
+  diffArrayLen   
+  mirrorArray   
+  avgValue     
+  abbreviate  
+  firstLastCap     
+  catBuilder      
+  printObject    
+  getFullname                  
+  valuePair
+  peakFinder 
+  divisibleByThreePairSum
+  zipArray
+  twoDimensionalTotal
+  capVowels
+  nextTwoPrimes
+  pairProduct
+  twoDimensionalSize
+  elementCount
+  titleize
+  isElement
+  minMaxProduct
+  phraseFinder
+  multiples
+  longWordCount
+  factorial
+  lcm
+  hipsterfy
+  objectToString
+  shortestWord
+  greatestCommonFactor
+  valueConcat
+  hipsterfyWord
+
+
+**********************************************************************
+advanced
+
+ upperFriends
+ countKeyValuePairs
+ ageAverage
+ countVowelsInValues
+ getCountsArr
+ getCountEntries
+ getMaxPrice
+ getMaxBrandPrice
+ allEvens
+ getDiagonalElements
+ getPerimeterElements
+ replaceMaxElement
+
