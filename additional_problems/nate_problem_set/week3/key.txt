@@ -1,0 +1,104 @@
+********************************
+*****   Problems Week 3    *****
+********************************
+
+
+basic      (25 problems)
+actual     (36 problems)
+advanced   (18 problems)
+
+
+**********************************************************************
+basic
+
+    getAverageScore
+    averageScoreFromObjects
+    capitalizer
+    capitalizeNonVowels
+    capitalizeFriends
+    charRepeat
+    printWithForEach
+    builtInEvens
+    isOddPredicateFunction
+    isGreaterThan10PrediateFunction
+    isPrimePredicateFunction
+    filterOddNums
+    filterEvenWords
+    allPositive
+    someLargerThan100
+    hasWordLongerThan6
+    add10ToEach
+    countInOrderNums
+    largestNum
+    largestEven
+    printStreaks
+    splitEvenArray
+    removeVowels
+    differentChars
+    countVowelsInPlace
+
+
+    
+**********************************************************************
+actual
+
+    objectSize
+    threeInARow
+    threeIncreasing
+    power
+    reverb
+    countOfLetter
+    countRepeats    
+    pairsToString
+    myForEach
+    mySelect
+    myMap
+    myEvery
+    mySome
+    countAdjacentSums
+    signFlipCount
+    powerSequence
+    collapseString
+    oddWordsOut
+    hasAllVowels
+    favoriteWord
+    mindPsAndQs
+    commonFactors
+    commonPrimeFactors
+    isPassing
+    variableNameify
+    reverse2D
+    productCallback
+    greaterCallback
+    objectSelect
+    splitHalfArray
+    threeUniqueVowels
+    vowelShift
+    myFind
+    hasSymmetry
+    totalNumProblems
+    evenSumArray
+    numsToWords
+
+
+
+**********************************************************************
+advanced
+
+    countIndexMod
+    mySlice
+    objFreqCount
+    arrFreqCount
+    countLongVowels
+    forEachFreqCount
+    getOnlineUsers
+    findIntersects
+    filterPeakFinder
+    threeInARowMethod
+    hasEveryVowelMethod
+    isSortedMethod
+    variableNamifyMethod
+    capitalizeMethod
+    removeVowelMethod
+    getSurfingFriends   
+    mySplice           
