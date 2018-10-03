@@ -1,10 +1,10 @@
 // **********************************************************************
 // timeFormat
 //
-// Write a function that accepts seconds and convert it to time foramt.
+// Write a function that accepts a total number of seconds and returns the secods count of time.
 // If given 70 seconds the time format would be '01:10'
-// But you don't need to calculate the minutes, only the seconds
-// 70 => 10
+// For this problem we only need to calcuate seconds and can ignore minutes.
+// '1:10' => '10'
 //
 // Examples :
 //

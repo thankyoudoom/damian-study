@@ -16,6 +16,7 @@
 //      : The inner function can be the recursive function
 // **********************************************************************
 
+// solution 1
 function countChars(str) {
   var counts = {};
   var i = 0;
@@ -39,6 +40,23 @@ function countChars(str) {
 
   inner();
   return counts;
+}
+
+// solution 2
+function countChars(str, i=0, counts={}) {
+  if (i === str.length) {
+    return counts;
+  }
+
+  var cur = str[i];
+
+  if (counts[cur]) {
+    counts[cur] += 1;
+  } else {
+    counts[cur] = 1;
+  }
+
+  return countChars(str, i + 1, counts);
 }
 
 

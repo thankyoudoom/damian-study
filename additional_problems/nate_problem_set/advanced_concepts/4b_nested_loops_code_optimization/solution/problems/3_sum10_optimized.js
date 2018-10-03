@@ -2,11 +2,13 @@
 // sum10 (optimized)
 //
 // We previously solved sum10(array) while working with nested loops
-// Nested loops are not optimal because each time we search for a pair that sums 10 we have to scan the entire string
-// The means we are performaing n^2 opperations (where n represents the number of numbers in the array)
+// Nested loops are not optimal because we are scanning the entire string once for each character.
 //
-// How can optimize this code by iterating through the string only twice?
-//
+// Write a function that accepts an array of numbers.
+// Return an array of sub arrays that contain all numbers that add up to 10.
+// Notice that the results are not distictive pairs.
+// Find the optimal solution by avoiding a nested for loop.
+// 
 //
 // Examples :
 //
@@ -17,9 +19,9 @@
 //
 //
 // Hints: 
-// There is only one possible match for a number that equals 10
-// Scan the numbers and record their indexes in an object
-// If the match exists in the object then we need to know the index number of the match
+//   There is only one possible match for a number that equals 10
+//   Scan the numbers and record their indexes in an object
+//   If the match exists in the object then use the index number of the match
 // **********************************************************************
 
 function sum10(array) {

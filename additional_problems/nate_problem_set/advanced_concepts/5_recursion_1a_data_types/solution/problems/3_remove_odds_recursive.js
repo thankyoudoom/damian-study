@@ -10,12 +10,9 @@
 //
 // removeOdds([4, 3, 7, 6, 8, 5]); // => [4, 6, 8]
 // removeOdds([10, 4, 12, 5, 3, 6, 7, 8]); // => [10, 4, 12, 6, 8]
-//
-//
-// Hint : Use an outer function to hold variable state
-//      : The inner function can be the recursive function
 // **********************************************************************
 
+// solution 1
 function removeOdds(arr) {
   var results = [];
   i = 0;
@@ -35,6 +32,21 @@ function removeOdds(arr) {
 
   inner();
   return results;
+}
+
+// solution 2
+function removeOdds(arr, i=0, res=[]) {
+  if (!arr.length) {
+    return res;
+  }
+
+  var cur = arr.shift();
+  
+  if (cur % 2 === 0) {
+    res.push(cur);
+  }
+
+  return removeOdds(arr, i + 1, res);
 }
 
 

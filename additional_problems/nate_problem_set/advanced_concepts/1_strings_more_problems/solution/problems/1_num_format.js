@@ -2,7 +2,7 @@
 // numFormat
 //
 // Create a function that accepts a number.
-// The function should return the number formated with commas.
+// The function should return a string of numbers formated with commas.
 //
 // Examples :
 //
@@ -10,7 +10,7 @@
 // numFormat(234239334); // => 234,239,334
 // numFormat(1); // => 1
 // numFormat(129); // => 129
-// numFormat(12348382938493837487); // => 12,348,382,938,493,837,000
+// numFormat(1234838293849383); // => 1,234,838,293,849,383
 // **********************************************************************
 
 function numFormat(value) {

@@ -10,12 +10,9 @@
 //
 // upperVowels('excellent'); // => 'ExcEllEnt'
 // upperVowels('spectacular'); // => 'spEctAcUlAr'
-//
-//
-// Hint : Use an outer function to hold variable state
-//      : The inner function can be the recursive function
 // **********************************************************************
 
+// solution 1
 function upperVowels(str) {
   var vowel = 'aeiou';
   var newStr = '';
@@ -38,6 +35,22 @@ function upperVowels(str) {
 
   inner()
   return newStr;
+}
+
+// solution 2
+function upperVowels(str, i=0) {
+  if (i === str.length) {
+    return str;
+  }
+
+  var vowels = 'aeiou';
+  var cur = str[i].toLowerCase();
+
+  if (vowels.indexOf(cur) > -1) {
+    var str = str.slice(0, i) + cur.toUpperCase() + str.slice(i + 1);
+  }
+
+  return upperVowels(str, i + 1);
 }
 
 

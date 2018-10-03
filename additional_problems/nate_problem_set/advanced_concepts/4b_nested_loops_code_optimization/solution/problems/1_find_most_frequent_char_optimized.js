@@ -2,11 +2,11 @@
 // findMostFrequentChar (optimized)
 //
 // We previously solved findMostFrequentChar(str) while working with nested loops
-// Nested loops are not optimal because we are scanning the entire string for each possible character
-// The means we are performaing n^2 opperations (where n represents the number of characters in the string)
+// Nested loops are not optimal because we are scanning the entire string once for each character.
 //
-// How can optimize this code by iterating through the string only twice?
-// This would me we are preforming n * 2 opperations, much better than n^2
+// Write a function that accepts a string and returns the most commonly occuring character.
+// There will not be any ties. 
+// Find the optimal solution by avoiding a nested for loop.
 //
 //
 // Examples :

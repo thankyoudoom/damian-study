@@ -2,7 +2,8 @@
 // slidingSub10
 //
 // Write a function that accepts an array of numbers.
-// Return an array of sub arrays that contain all sequential numbers that add up to 10.
+// Return an array of sub arrays that contain numbers that add up to 10.
+// The numbers should be in sequential order.
 //
 // Examples :
 //
@@ -17,3 +18,4 @@ function slidingSub10(arr) {
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 module.exports = slidingSub10;
+
