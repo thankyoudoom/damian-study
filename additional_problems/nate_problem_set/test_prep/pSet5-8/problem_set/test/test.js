@@ -33,7 +33,7 @@ describe('scrabbleScore()', function () {
   it('should convert a strings of characters and integers to a scrabble score', function () {
     assert.deepEqual(scrabbleScore('m2iiii1ssss1pp4'), 18);
     assert.deepEqual(scrabbleScore('b4oo2kk2eee1p4r1'), 20);
-    assert.deepEqual(scrabbleScore('mm2a1x8iii1z10e1n1g2'), 22);
+    assert.deepEqual(scrabbleScore('mm2a1x8iii1z1e1n1g2'), 21);
   });
 });
 
