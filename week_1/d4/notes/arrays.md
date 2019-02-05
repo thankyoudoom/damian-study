@@ -151,7 +151,7 @@ So let's step through how that expression evaluates:
 ### Iterating Over Arrays
 
 Previously we learned how to iterate through certain numbers using a for loop. Check
-our this classic for loop that iterates from 0 through 2 as a refresher:
+out this classic for loop that iterates from 0 through 2 as a refresher:
 
 ```js
 for (var i = 0; i < 3; i += 1) {
