@@ -59,7 +59,7 @@ if (num1+num2=== 8) {
 }
 ```
 
-**Did you know?** Operators that work on two things are called *binary operators*, since they are apply to 2 operands (hence binary).
+**Did you know?** Operators that work on two things are called *binary operators*, since they are applied to 2 operands (hence binary).
 
 Don't use a space for operators that use one thing like `++`, `--`, etc..
 
@@ -212,9 +212,18 @@ our curriculum for examples where to put semicolons.
 
 ### Modular Functions
 
-As you program more complex problems, strive to design your functions so that they
+*“Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.”*
+</br>
+-Rick Osborne
+
+As programmers, we want to write code that we will be able to maintain and understand in the future.
+It's very atypical to write code once and never look at it ever again. We should measure twice
+and cut once!
+
+As you program more complex problems, strive to design your functions so that they are
 relatively simple and focus on a particular task. We should make our functions so that
-they are **modular**. If we make our code modular, and each smaller component is correct
-and working, then the entire system of our code will be working and easy to maintain. Here's a
-rule of thumb: if a function you wrote is large and difficult to follow, consider
-decomposing it by creating a helper function.  
+they are **modular**. If we make our code modular and each smaller component is correct
+and working, then the entire system of our code will be working and easy to maintain.  
+Here's a rule of thumb: if a function you wrote is large and difficult to follow, consider
+decomposing it by creating a helper function. Functions are building blocks. If our blocks
+are small, they are more flexible and to work with.
