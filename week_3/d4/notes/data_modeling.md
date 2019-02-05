@@ -120,7 +120,7 @@ the case of the object, getting the count of `'a'` is as simple as `countObject.
 plane. How do we represent that data (robot's location)? We can use 2D arrays to represent a
 cartesian plane, but that may be an overkill. We can also initialize two variables (`x` and
 `y`) to zero. When the robot moves in the positive direction, increment (or decrement) the
-counter associated with that axis. No we have a succinct representation of location
+counter associated with that axis. Now we have a succinct representation of location
 without the weight and complexity of a 2D array.
 
 * Your employer ask you to create a data model of a car. What data structure would you use?
