@@ -112,10 +112,29 @@ function whisper(string) {
 //
 // Examples:
 // isSubstring("The cat went to the store", "he cat went"); // => true
-// isSubstring("Time to program", "time"); // => true
+// isSubstring("Time to program", "time"); // => false
 // isSubstring("Jump for joy", "joys"); // => false
 //
 function isSubstring(searchString, subString) {
+  // your code here...
+}
+```
+
+### isCaseInsensitiveSubstring
+
+```js
+// Write a function `isCaseInsensitiveSubstring` that takes in two strings, `searchString` and
+// `subString`. The function should return `true` if `subString` is a part of the
+// `searchString`, `false` otherwise.
+// Unlike the previous function 'isSubString', this function should ignore the `subString` and `searchString` case.
+//
+// Examples:
+// isCaseInsensitiveSubstring("Let's go to the store", "He STo"); // => true
+// isCaseInsensitiveSubstring("it was a dark and stormy night", "nights"); // => false
+// isCaseInsensitiveSubstring("Programming is fun", "programming"); // => true
+// isCaseInsensitiveSubstring("sometimes it is cloudy", "cloudy"); // => true
+//
+function isCaseInsensitiveSubstring(searchString, subString) {
   // your code here...
 }
 ```
