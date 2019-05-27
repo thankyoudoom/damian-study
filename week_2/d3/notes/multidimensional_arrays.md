@@ -63,7 +63,7 @@ every variable will evaluate to the data we assigned it anyways!
 ### Iterating Through Multi-Arrays
 
 To iterate through a multi-array, we use nested loops. To iterate through a 2D array,
-the other loop will iterate through the outer array, and the inner loop will iterate
+the outer loop will iterate through the outer array, and the inner loop will iterate
 through each inner subarray.
 
 ```js
