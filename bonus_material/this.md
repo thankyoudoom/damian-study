@@ -18,9 +18,9 @@ var dog = {
     this.isSitting = false;
     return this.isSitting;
   }
-}
+};
 
-// Fido is starts out sitting
+// Fido starts out sitting
 console.log(dog.isSitting); // prints `true`
 
 // Let's make him stand
@@ -44,7 +44,7 @@ var dog = {
   test: function() {
     return this === dog;
   }
-}
+};
 
 var answer = dog.test();
 console.log(answer); // prints `true`
