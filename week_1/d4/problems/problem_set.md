@@ -29,7 +29,7 @@
 ### sumArray
 
 ```js
-// Write a function sumArray(array) that takes in an array of numbers are returns the
+// Write a function sumArray(array) that takes in an array of numbers that returns the
 // total sum of them.
 //
 //
