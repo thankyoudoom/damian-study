@@ -98,7 +98,7 @@ parameters to make our loops dynamic. We can build a very flexible function like
 
 ```js
 function printNums(start, end, step) {
-  for(var i = start; i <= end; i += step) {
+  for (var i = start; i <= end; i += step) {
     console.log(i);
   }
 }
