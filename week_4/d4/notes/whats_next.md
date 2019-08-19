@@ -61,6 +61,10 @@ challenges.
 
 **You should not use another classmate's link to book your interview! You must submit a full-time application for yourself. Otherwise you won't have an application in our system. Do not share your interview calendar link with other classmates** Please follow the directions above.
 
+- **If you get accepted into a/A:**
+
+The first four weeks of App Academy's full-time bootcamp is devoted to the Foundations course. While you are more than welcome (and encouraged!) to take the technical interview in Javascript, the Foundations course is taught in Ruby. A basic understanding of Ruby syntax is required before joining a cohort and beginning Foundations. It is ***highly recommended*** that you complete the Intro to Programming I and II courses on App Academy Online prior to beginning Foundations. These courses cover a lot of the same material that you learned throughout Bootcamp Prep, so it is a good opportunity to reinforce all the material you learned as well as begin learning another programming language!
+
 
 Best of luck on your interviews prep graduate. Remember your training!
 
