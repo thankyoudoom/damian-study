@@ -51,7 +51,7 @@ if (condition1) {
 ```
 
 In a chain of `if` followed by multiple `else if`s, the conditions in the chain
-will be evaluated top-down until the one of the conditions evaluate to `true`.
+will be evaluated top-down until one of the conditions evaluate to `true`.
 Once we find a condition that is `true`,  we won't check any of the other
 conditions.
 This means that in a chain of `if ... else if ... else` only one of the branches
