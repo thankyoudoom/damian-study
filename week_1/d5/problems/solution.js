@@ -71,3 +71,36 @@ function wordYeller(sentence) {
 
   return yelledWords.join(" ");
 }
+
+function arraySubstring(words, str) {
+  var arr = [];
+
+  for (var i = 0; i < words.length; i++) {
+    var word = words[i];
+
+    if (word.indexOf(str) !== -1) {
+      arr.push(true);
+    } else {
+      arr.push(false);
+    }
+  }
+
+  return arr;
+}
+
+function evenCaps(sentence) {
+  var newSentence = "";
+
+  for (var i = 0; i < sentence.length; i++) {
+    var char = sentence[i];
+
+    if (i % 2 === 0) {
+      var capitalChar = char.toUpperCase();
+      newSentence += capitalChar;
+    } else {
+      newSentence += char;
+    }
+  }
+
+  return newSentence;
+}
