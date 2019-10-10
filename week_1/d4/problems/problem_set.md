@@ -80,7 +80,7 @@
 ```js
 // Write a function `myIndexOf(array, target)` that takes in an array of
 // numbers and a target number as arguments. It should return the index value
-// of the target if it is present in the array or -1 if it is not present
+// of the target if it is present in the array or -1 if it is not present.
 //
 // CONSTRAINT: Do not use the indexOf method.
 //
@@ -93,14 +93,14 @@
 ### factorArray
 
 ```js
-// Write a function `factorArray(array, number)` that takes in an array and a
-// number as arguments and returns an array of indices of all elements in the
-// array that are a factor of number.
+// Write a function `factorArray(array, number)` that takes in an array of
+// numbers and a number and returns an array of all the factors.
 //
 // Examples:
 //
 // factorArray([2,3,4,5,6],20) => [2,4,5]
 // factorArray([2,3,4,5,6],35) => [5]
+// factorArray([10,15,20,25],5) => []
 ```
 
 ### Array Muscle Memory

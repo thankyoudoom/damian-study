@@ -34,6 +34,8 @@
   + [capWords](https://vimeo.com/206629380/11c17ab8ef)
   + [wordPeriods](https://vimeo.com/221020992/9028c5bb06)
   + [maxValue](https://vimeo.com/206629452/d0ab647c2d)
+  + [myIndexOf](https://vimeo.com/365615116/4f0b068ae9)
+  + [factorArray](https://vimeo.com/365616125/7d3b0481d6)
 
 [arrays]: ./notes/arrays.md
 [problems-w1d4]: ./problems/problem_set.md
