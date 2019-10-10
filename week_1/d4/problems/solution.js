@@ -78,3 +78,30 @@ function maxValue(numbers) {
 
   return largest;
 }
+
+function myIndexOf(array, target) {
+
+  for (var i = 0; i < array.length; i++) {
+    var num = array[i];
+
+    if (num === target) {
+      return i;
+    }
+  }
+
+  return -1;
+}
+
+function factorsArray(array, number) {
+  var factors = [];
+
+  for (var i = 0; i < array.length; i++) {
+    var num = array[i];
+
+    if (number % num === 0) {
+      factors.push(num);
+    }
+  }
+
+  return factors;
+}
