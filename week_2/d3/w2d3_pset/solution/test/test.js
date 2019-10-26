@@ -7,6 +7,10 @@ var peakFinder = tryRequire('../problems/1_peak_finder.js');
 var divisibleByThreePairSum = tryRequire('../problems/2_divisible_by_three_pair_sum.js');
 var zipArray = tryRequire('../problems/3_zip_array.js');
 var twoDimensionalTotal = tryRequire('../problems/4_two_dimensional_total.js');
+var countInnerElement = tryRequire('../problems/5_count_inner_element.js');
+var twoDiff = tryRequire('../problems/6_two_diff.js');
+var arrayDiff = tryRequire('../problems/7_array_diff.js');
+var valueCounter = tryRequire('../problems/8_value_counter.js');
 
 describe('peakFinder()', function () {
   it('should return array of the index of each peak', function () {
@@ -61,5 +65,81 @@ describe('twoDimensionalTotal()', function () {
 
     assert.equal(twoDimensionalTotal(arr1), 40);
     assert.equal(twoDimensionalTotal(arr2),  15);
+  });
+});
+
+describe('countInnerElement()', function () {
+  it('should return an object with each key as the element of the inner array and how many times it repeats', function () {
+    var arr1 = [
+      [1,2,4,5],
+      [2,7,4],
+      [1,4,5,2,7]
+    ]
+    var result1 = {1: 2, 2: 3, 4: 3, 5: 2, 7: 2}
+    
+    var arr2 = [
+      ['a','b','c','d'],
+      ['a','b'],
+      ['a','c','d','a']
+    ]
+    var result2 = {a: 4, b: 2, c: 2, d: 2}
+    
+    assert.deepEqual(countInnerElement(arr1), result1);
+    assert.deepEqual(countInnerElement(arr2), result2);
+  });
+
+  it('should return an empty object when the input array is empty', function(){
+    var arr3 = [[]]
+    var result3 = {}
+
+    assert.deepEqual(countInnerElement(arr3), result3)
+  });
+});
+
+describe('twoDiff()', function () {
+  it("should return a 2-D array of indices where the indices' numbers' difference equates to 2" , function () {
+    var arr1 = [2, 3, 4, 6, 1, 7]
+    var result1 = [[0, 2], [1, 4], [2, 3]]
+
+    var arr2 = [0, 2, 4, 3, 5]
+    var result2 = [[0, 1], [1, 2], [3,4]]
+    
+    assert.deepEqual(twoDiff(arr1), result1);
+    assert.deepEqual(twoDiff(arr2), result2);
+  });
+
+  it('should return an empty array when the input array is empty', function(){
+    var arr3 = []
+    var result3 = []
+
+    assert.deepEqual(twoDiff(arr3), result3)
+  });
+});
+
+describe('arrayDiff()', function () {
+  it("should return an array of array1 where the elements were removed if they were the same as array2" , function () {
+    var array1 = [1,23,2,43,3,4]
+    var array2 = [3, 23]
+    var result1 = [1, 2, 43 ,4]
+
+    var array3 = ['a', 'ab', 'c', 'd', 'c']
+    var array4 = ['d']
+    var result2 = ['a', 'ab', 'c', 'c']
+    
+    assert.deepEqual(arrayDiff(array1, array2), result1)
+    assert.deepEqual(arrayDiff(array3, array4), result2)
+  });
+});
+
+describe('valueCounter()', function () {
+  it('should return a count of how many times the value repeats in the object', function () {
+    obj1 = {1: 'Anne', 2: 'Alvin', 3: 'Anne', 4: 'Anne'}
+    result1 = 3
+    
+    obj2 = {Anne: 50, Alvin: 1, JJ: 100, Roman: 100}
+    result2 = 0
+
+    assert.equal(valueCounter(obj1, 'Anne'), result1)
+    assert.equal(valueCounter(obj1, 90), result2)
   });
 });
