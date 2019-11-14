@@ -4,7 +4,6 @@ Each element of 'arr' is a sub array that contains multiple elements. The number
 of elements contained in each sub array are not the same. We can assume each sub
 array contains at least one element. We should return an object that counts
 how many times each element in each sub array repeats.
-***********************************************************************/
 
 // Examples:
 // var arr1 = [
@@ -22,6 +21,7 @@ how many times each element in each sub array repeats.
 // ]
 
 // countInnerElement(arr2) // => {a: 4, b: 2, c: 2, d: 2}
+***********************************************************************/
 
 function countInnerElement(arr) {
   var obj = {};
