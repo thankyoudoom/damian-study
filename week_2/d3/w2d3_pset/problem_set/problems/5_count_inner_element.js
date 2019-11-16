@@ -2,9 +2,8 @@
 Write a function `countInnerElement(arr)` that takes in a 2-D array of elements.
 Each element of 'arr' is a sub array that contains multiple elements. The number
 of elements contained in each sub array are not the same. We can assume each sub
-array contains at least one element. If every sub array have that element,
-we should return that in our new array.
-***********************************************************************/
+array contains at least one element. We should return an object that counts
+how many times each element in each sub array repeats.
 
 // Examples:
 // var arr1 = [
@@ -22,6 +21,8 @@ we should return that in our new array.
 // ]
 
 // countInnerElement(arr2) // => {a: 4, b: 2, c: 2, d: 2}
+***********************************************************************/
+
 
 function countInnerElement(arr) {
   
