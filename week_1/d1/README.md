@@ -1,6 +1,6 @@
 ## W1D1
 
-+ [Understanding Examples][understanding-examples]
++ [Understanding Examples][notes/understanding-examples]
 + [Data Types][data-types]
 + [Variables][variables]
 + [Conditionals][conditionals]
