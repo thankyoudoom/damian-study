@@ -1,6 +1,6 @@
 ## W1D1
 
-+ [Understanding Examples][notes/understanding-examples]
++ [Understanding Examples][understanding-examples]
 + [Data Types][data-types]
 + [Variables][variables]
 + [Conditionals][conditionals]
@@ -13,7 +13,7 @@
 
 + Complete the [Problem Set][problems-w1d1]
 
-[Understanding Examples]: ./notes/Understanding-Examples.md
+[Understanding Examples]: ./notes/understanding-examples.md
 [Data Types]: ./notes/data-types.md
 [Variables]: ./notes/Variables.js
 [Conditionals]: /notes/Conditionals.md
