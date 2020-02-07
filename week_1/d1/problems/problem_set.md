@@ -178,7 +178,7 @@ if (num % 5 === 0) {
 
 ```js
 // 9
-var str = 'App AcademY'; // try different strings here
+var str = 'JosEphs BootCAMP'; // try different strings here
 
 if (str[0] === str[0].toUpperCase()) {
   console.log('starts with a capital!');
