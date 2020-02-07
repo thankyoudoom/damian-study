@@ -12,3 +12,8 @@
 ### Homework
 
 + Complete the [Problem Set][problems-w1d1]
+
+[Understanding Examples]: ./notes/Understanding-Examples.md
+[Data Types]: ./notes/data-types.md
+[Variables]: ./notes/Variables.js
+[Conditionals]: /notes/Conditionals.md
