@@ -9,9 +9,7 @@
 
 + [Practice Assessments][practice-assessments]
 
-### Miscellaneous
-+ [Agreement Summary][agreement-summary]
-+ [Mock Interviews][mock-interviews]
+
 
 [practice-assessments]: ./practice_assessments
 [week-0]: ./week_0
