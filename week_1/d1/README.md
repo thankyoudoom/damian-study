@@ -13,8 +13,8 @@
 
 + Complete the [Problem Set][problems-w1d1]
 
-[Understanding Examples]: week_1/d1/notes/understanding_examples.md
-[Data Types]: week_1/d1/notes/data_types.md
+[Understanding Examples]: ./notes/understanding_examples.md
+[Data Types]: ./notes/data_types.md
 [Variables]: ./notes/variables.md
-[Conditionals]: week_1/d1/notes/conditionals.md
-[Problem Set]: week_1/d1/problems/problems_w1d1.md
+[Conditionals]: ./notes/conditionals.md
+[Problem Set]: ./problems/problems_w1d1.md
