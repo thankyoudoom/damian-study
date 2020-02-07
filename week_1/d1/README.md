@@ -13,8 +13,8 @@
 
 + Complete the [Problem Set][problems-w1d1]
 
-[Understanding Examples]: ./notes/understanding_examples.md
-[Data Types]: ./notes/data_types.md
-[Variables]: ./notes/Variables.js
-[Conditionals]: /notes/Conditionals.md
+[Understanding Examples]: /notes/understanding_examples.md
+[Data Types]: /notes/data_types.md
+[Variables]: /notes/variables.md
+[Conditionals]: /notes/conditionals.md
 [Problem Set]: /problems/problems_w1d1.md
