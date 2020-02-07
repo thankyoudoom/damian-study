@@ -18,3 +18,4 @@
 [Variables]: ./notes/variables.md
 [Conditionals]: ./notes/conditionals.md
 [problems-w1d1]: ./problems/problems_w1d1.md
+[solutions-w1d1]: ./problems/solutions_w1d1.md
