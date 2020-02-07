@@ -1,6 +1,6 @@
 ## Installing
 
-There are a few programs we will be using heavily in Bootcamp Prep. Be sure to
+There are a few programs we will be using heavily in Bootcamp. Be sure to
 install these before the first class, especially Atom and Node.
 
 ### Node.js
