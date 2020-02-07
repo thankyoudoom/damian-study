@@ -31,7 +31,7 @@ function sayHello(name) {
 }
 
 // let's call this function to print 'Hello, my name is Bootcamp Prep'
-sayHello("Bootcamp Prep");
+sayHello("Bootcamp");
 ```
 
 ### Command Line Interface (CLI) Examples
