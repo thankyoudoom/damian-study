@@ -1,4 +1,4 @@
-# bootcamp-prep-live-curriculum
+# joseph's bootcamp extreme
 
 ### Quick Links
 + [Week 0 Prep Work][week-0]
