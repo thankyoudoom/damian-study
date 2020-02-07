@@ -17,11 +17,14 @@ In JavaScript, in order to use a variable, we must *declare* it. Variable
 **declaration** is the act of introducing the variable to the environment. When we
 declare a variable, we will often *initialize* it to a value.
 
-To declare a variable, use the `var` keyword, followed by a space and then the name
+To declare a variable, use the `const` or `let` keyword, followed by a space and then the name
 of the variable.
 
+`let` keyword is for value that you know will change.
+`const` keyword means constant meaning that value will never change.
+
 ```js
-> var myVar;
+> const myVar;
 ```
 
 ### Variable Assignment and Initialization
@@ -34,7 +37,7 @@ not to indicate equality like it is in math.
 Let's create out first variable and play with it in the REPL:
 
 ```js
-> var myVar
+> let myVar
 undefined
 
 > myVar     // we can use myVar without error because we declared it.
@@ -52,7 +55,7 @@ undefined   // myVar evaluates to undefined because we did not initialize myVar 
 > myVar     // the variable is still unchanged
 5
 
-> var myOtherVar = 10 // we can also declare and assign a variable all at once
+> const myOtherVar = 10 // we can also declare and assign a variable all at once
 undefined
 
 > myOtherVar  // `myOtherVar` evaluates to 10
@@ -72,7 +75,7 @@ again.
 Check out this example using a better, more descriptive variable name:
 
 ```js
-> var num = 2
+> let num = 2
 undefined
 
 > num = num + 8
@@ -96,7 +99,7 @@ with `=`.
 Luckily there are some shorthand operators we can use:
 
 ```js
-> var n = 0
+> let n = 0
 undefined
 
 > n
