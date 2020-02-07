@@ -12,4 +12,3 @@
 ### Homework
 
 + Complete the [Problem Set][problems-w1d1]
-
