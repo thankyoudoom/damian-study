@@ -1,6 +1,6 @@
 ## What to Expect
 
-Welcome to App Academy Bootcamp Prep! The goal of this course is to equip you
+Welcome to Joseph's Bootcamp! The goal of this course is to equip you
 with strong programming fundamentals in JavaScript and prepare you to be a top
 candidate for coding bootcamps. This course will not be easy. Do not expect to
 devote only the 2 hours during class time and become a top candidate. Devote as
@@ -34,7 +34,7 @@ opportunity to ask questions as you work.
 
 ### Assessments
 
-Assessments are Mondays and Fridays (except the first Monday). It is quite typical
+Assessments are Mondays and Friday. It is quite typical
 to not do well on the Friday assessments (especially the first assessment). Don't
 stress out about the assessments, they are only practice and can be used to measure
 how comfortable you are with the material. We don't give any penalties or strikes for
