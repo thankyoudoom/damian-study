@@ -1,7 +1,6 @@
 ### Week 0 - Precourse Readings
 
 + [What to Expect][what-to-expect]
-+ [How to Succeed][how-to-succeed]
 + [Repository Tour][repository-tour]
 + [Command Line Interface][cli]
 + [Installations][installations]
@@ -10,7 +9,6 @@
 
 
 [what-to-expect]: ./what_to_expect.md
-[how-to-succeed]: ./how_to_succeed.md
 [repository-tour]: ./repository_tour.md
 [programming-intro]: ./programming_intro.md
 [running-javascript]: ./running_javascript.md
